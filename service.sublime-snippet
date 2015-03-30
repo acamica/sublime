@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+(function(){
+	'use strict';
+
+	angular
+		.module('acamica.$1')
+		.factory('$2', $2Service);
+
+	$2Service.\$inject = [];
+
+	function $2Service () {
+	}
+})();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>acserv</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

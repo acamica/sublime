@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+(function(){
+	'use strict';
+
+	angular
+		.module('acamica.$1')
+		.directive('$2', $2Directive);
+
+	$2Directive.\$inject = [];
+
+	function $2Directive () {
+		return {
+			restrict: 'E',
+			scope: {},
+			controller: $2Controller,
+			controllerAs: '',
+			bindToController: true,
+			require: '$2',
+			link: function (scope, elm, attr, ctrl) {
+
+			}
+		};
+	}
+
+	$2Controller.\$inject = [];
+
+	function $2Controller () {
+		var ctrl = this;
+
+	}
+})();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>acedir</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
