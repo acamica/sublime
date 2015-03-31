@@ -14,13 +14,15 @@
 			restrict: 'E',
 			scope: {},
 			controller: $2Controller,
-			controllerAs: '',
+			controllerAs: 'ctrl',
 			bindToController: true,
 			require: '$2',
-			link: function (scope, elm, attr, ctrl) {
-
-			}
+			link: link
 		};
+
+		function link (scope, elm, attr, ctrl) {
+
+		}
 	}
 
 	$2Controller.\$inject = [];
