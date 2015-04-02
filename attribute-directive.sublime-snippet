@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-(function(){
+(function() {
 	'use strict';
 
 	angular
@@ -44,6 +44,7 @@
 		var ctrl = this;
 	}
 })();
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>acadir</tabTrigger>
