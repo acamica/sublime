@@ -7,9 +7,42 @@
 		.module('acamica.$1')
 		.factory('$2', $2Service);
 
+	/**
+	 * @ngdoc service
+	 * @name acamica.$1.factory:$2
+	 *
+	 * @description
+	 * TODO: Describe this service
+	 *
+	 */
 	$2Service.\$inject = [];
 
 	function $2Service () {
+		var globalServiceVariable;
+
+		initialize();
+
+		return {
+			someMethod: someMethod
+		};
+
+		///////////////////////////////////////////
+
+		function initialize () {
+			console.log(globalServiceVariable);
+		}
+
+		/**
+		 * @ngdoc method
+		 * @name someMethod
+		 * @methodOf acamica.$1.factory:$2
+		 *
+		 * @description
+		 * TODO: someMethod description
+		*/
+		function someMethod () {
+
+		}
 	}
 })();
 ]]></content>

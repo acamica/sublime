@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @ngdoc method
+ * @name $1
+ * @methodOf acamica.MODULE.factory:SERVICE-NAME
+ *
+ * @description
+ * TODO: $1 description
+*/
+function $1 () {
+
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>acservmethod</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

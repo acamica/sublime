@@ -7,6 +7,19 @@
 		.module('acamica.$1')
 		.directive('$2', $2Directive);
 
+	/**
+	 * @ngdoc directive
+	 * @name acamica.$1.directive:$2
+	 * @restrict E
+	 * @scope
+	 *
+	 * @description
+	 * TODO: A description of the directive
+	 *
+	 * @param {object}  field   TODO: describe attributes to the directive
+	 *
+	 */
+
 	$2Directive.\$inject = [];
 
 	function $2Directive () {
